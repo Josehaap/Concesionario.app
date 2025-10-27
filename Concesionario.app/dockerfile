@@ -2,23 +2,25 @@
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /app
 
-# Copiar el proyecto csproj y restaurar dependencias
-COPY Concesionario/Concesionario.csproj ./Concesionario.csproj
-RUN dotnet restore ./Concesionario.csproj
+# Copiar la solución y restaurar dependencias
+COPY Concesionario.app.sln ./
+COPY Concesionario/*.csproj ./Concesionario/
+RUN dotnet restore Concesionario.app.sln
 
-# Copiar todo el código
-COPY Concesionario/. ./Concesionario/
-RUN dotnet publish ./Concesionario/Concesionario.csproj -c Release -o /app/publish
+# Copiar todo el código fuente
+COPY . ./
+
+# Publicar el proyecto Blazor Server
+RUN dotnet publish Concesionario/Concesionario.csproj -c Release -o /app/publish
 
 # Etapa 2: Runtime
 FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/publish .
 
-# Puerto que usará Render
+# Puerto dinámico asignado por Render
 ENV DOTNET_URLS=http://*:${PORT}
 EXPOSE 5000
 
-# Cambiar al nombre real de tu DLL
+# Ejecutar la aplicación
 ENTRYPOINT ["dotnet", "Concesionario.dll"]
-
