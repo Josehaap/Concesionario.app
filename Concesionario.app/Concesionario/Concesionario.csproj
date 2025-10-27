@@ -9,11 +9,6 @@
     <Folder Include="wwwroot\src\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <!-- Asegura que todos los archivos de wwwroot se publiquen -->
-    <Content Include="wwwroot\**\*" CopyToOutputDirectory="PreserveNewest" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
