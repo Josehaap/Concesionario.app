@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Copiar la solución y restaurar dependencias
 COPY Concesionario.app.sln ./
-COPY Concesionario/*.csproj ./Concesionario/
+COPY Concesionario/Concesionario.csproj ./Concesionario/Concesionario.csproj
 RUN dotnet restore Concesionario.app.sln
 
 # Copiar todo el código fuente
