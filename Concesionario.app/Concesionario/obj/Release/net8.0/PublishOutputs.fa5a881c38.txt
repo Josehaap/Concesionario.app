@@ -1,0 +1,10 @@
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\publish\Concesionario.exe
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\publish\DatosAlmacenados\Vehiculos.json
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\publish\appsettings.Development.json
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\publish\appsettings.json
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\publish\Concesionario.dll
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\publish\Concesionario.deps.json
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\publish\Concesionario.runtimeconfig.json
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\publish\Concesionario.pdb
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\publish\LibsClass.dll
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\publish\LibsClass.pdb
