@@ -3,10 +3,10 @@ FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /app
 
 # Copiar csproj y restaurar dependencias
-COPY *.csproj ./
+COPY *.csproj ./  
 RUN dotnet restore
 
-# Copiar todo el código y publicar en Release
+# Copiar todo el código
 COPY . ./
 RUN dotnet publish -c Release -o /app/publish
 
@@ -15,8 +15,8 @@ FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/publish .
 
-# Puerto donde se ejecuta Blazor Server
+# Puerto que usará Render
+ENV DOTNET_URLS=http://*:${PORT}
 EXPOSE 5000
 
-# Comando para iniciar la app
-ENTRYPOINT ["dotnet", "MiBlazorApp.dll"]
+ENTRYPOINT ["dotnet", "Concesionario.app.dll"]  # Cambia al nombre real de tu dll
