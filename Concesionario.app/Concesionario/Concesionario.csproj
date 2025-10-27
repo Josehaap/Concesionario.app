@@ -4,11 +4,6 @@
     <ProjectReference Include="..\LibsClass\LibsClass.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="wwwroot\data\" />
-    <Folder Include="wwwroot\src\" />
-  </ItemGroup>
-
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>

@@ -1,30 +1,20 @@
-# Etapa 1: Build
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copiar solución y proyectos
-COPY Concesionario.app/Concesionario.app.sln ./
-COPY Concesionario.app/Concesionario/Concesionario.csproj Concesionario/
-COPY Concesionario.app/LibsClass/LibsClass.csproj LibsClass/
+# Copiar proyectos
+COPY ["LibsClass/LibsClass.csproj", "LibsClass/"]
+COPY ["Concesionario/Concesionario.csproj", "Concesionario/"]
 
-# Restaurar dependencias
-RUN dotnet restore Concesionario.app.sln
+RUN dotnet restore "Concesionario/Concesionario.csproj"
 
-# Copiar todo el código
-COPY Concesionario.app/ .
+# Copiar todo el resto del proyecto
+COPY . .
 
-# Publicar proyecto
-RUN dotnet publish Concesionario/Concesionario.csproj -c Release -o /app/publish
+# Publicar
+RUN dotnet publish "Concesionario/Concesionario.csproj" -c Release -o /app/publish
 
-# Etapa 2: Runtime
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
+# Runtime
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/publish .
-
-# Puerto dinámico
-EXPOSE 10000
-ENV ASPNETCORE_URLS=http://+:10000
-
 ENTRYPOINT ["dotnet", "Concesionario.dll"]
-
-
