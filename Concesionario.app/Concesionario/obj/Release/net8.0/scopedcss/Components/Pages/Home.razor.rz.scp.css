@@ -1,0 +1,30 @@
+.Merriweather[b-aek2o8qxaa]{
+    font-family: 'Merriweather_120pt-SemiBoldItalic';
+}
+
+
+.enfasis[b-aek2o8qxaa]{   
+    font-style: italic;
+    font-size: 30px;
+    font-family: inherit;
+}
+
+.articuloVehiculosDestacados[b-aek2o8qxaa]{
+    margin-top: 170px;
+}
+h2[b-aek2o8qxaa]{
+    font-family: 'PoetsenOne';
+    font-size: 80px;
+    padding-bottom: 40px;
+}
+div.card[b-aek2o8qxaa]{
+    border: 0;
+}
+.card-header[b-aek2o8qxaa] {
+    z-index: 2; 
+    border: none;/* Asegura que el botón esté encima de la capa gris */
+    background: none;
+}
+article > div.container[b-aek2o8qxaa]{
+    animation: unlock_opacity 4s ease forwards;
+}

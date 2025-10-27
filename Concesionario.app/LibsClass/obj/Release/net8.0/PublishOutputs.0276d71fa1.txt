@@ -1,0 +1,4 @@
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\publish\DatosAlmacenados\Vehiculos.json
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\publish\LibsClass.dll
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\publish\LibsClass.deps.json
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\publish\LibsClass.pdb

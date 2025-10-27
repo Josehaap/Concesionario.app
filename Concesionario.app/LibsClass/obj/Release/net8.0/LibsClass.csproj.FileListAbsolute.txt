@@ -1,0 +1,13 @@
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\bin\Release\net8.0\DatosAlmacenados\Vehiculos.json
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\bin\Release\net8.0\LibsClass.deps.json
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\bin\Release\net8.0\LibsClass.dll
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\bin\Release\net8.0\LibsClass.pdb
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\obj\Release\net8.0\LibsClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\obj\Release\net8.0\LibsClass.AssemblyInfoInputs.cache
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\obj\Release\net8.0\LibsClass.AssemblyInfo.cs
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\obj\Release\net8.0\LibsClass.csproj.CoreCompileInputs.cache
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\obj\Release\net8.0\LibsClass.sourcelink.json
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\obj\Release\net8.0\LibsClass.dll
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\obj\Release\net8.0\refint\LibsClass.dll
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\obj\Release\net8.0\LibsClass.pdb
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\obj\Release\net8.0\ref\LibsClass.dll

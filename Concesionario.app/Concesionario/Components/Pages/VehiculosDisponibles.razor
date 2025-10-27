@@ -1,0 +1,52 @@
+@page "/vehiculosdisponibles/{AnimacionBusqueda}/{terminoBusqueda?}"
+@using LibsClass
+@inject Catalogo c
+@rendermode InteractiveServer
+
+<PageTitle>Vehículos Disponibles</PageTitle>
+<div class="@( booleanoDeActivacion? "" : "contenedorInfo")">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-4 g-3">
+        @foreach (Coche coche in c.ListadoCoches
+                .Where(v => string.IsNullOrEmpty(terminoBusqueda) || v.Marca.Contains(terminoBusqueda,
+                StringComparison.CurrentCultureIgnoreCase))
+                .OrderBy(v => v.Marca))
+        {
+            <div class="col mr-auto @(up_inOFade_in)">
+                <Target Titulo=@($"{coche.Marca} {coche.Modelo}")
+                    ListadoDeImagenes="@(coche.ListadoPathDeImagenes.Count() == 0 ? null : coche.ListadoPathDeImagenes[0])"
+                    Descripción="@coche.Descripcion" velocidadMaxima="@coche.VelocidadMaxima"
+                    UrlParaEditar=@($"/editarcoche/{coche.Marca}{coche.Modelo}") />
+            </div>
+        }
+    </div>
+    @if (c.ListadoCoches.Where(v =>
+        v.Marca.Contains(terminoBusqueda??="", StringComparison.CurrentCultureIgnoreCase)).ToList().Count() == 0)
+    {
+        <div class="alert alert-warning d-flex align-items-center" role="alert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:">
+                <use xlink:href="#info-fill" />
+            </svg>
+            <div>
+                Se le informa que no tenemos vehículos disponibles que desea
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter] public string AnimacionBusqueda { get; set; }
+
+    [Parameter]
+    public string? terminoBusqueda { get; set; }
+
+    string up_inOFade_in;
+    bool booleanoDeActivacion;
+    protected override void OnParametersSet()
+    {
+        bool.TryParse(AnimacionBusqueda, out booleanoDeActivacion);
+        up_inOFade_in = booleanoDeActivacion ? "slide-in" : "fade-in";
+    }
+
+
+
+}

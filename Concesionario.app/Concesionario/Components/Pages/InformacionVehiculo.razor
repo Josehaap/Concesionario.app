@@ -1,0 +1,53 @@
+@page "/informacionvehiculo/{Titulo}"
+@using LibsClass
+@inject Catalogo c
+
+@if (infoCoche is not null)
+{
+    <section class="py-4">
+    <div class="coche-card">
+        <div class="contenedor_info"> 
+            <h1>@infoCoche.Marca @infoCoche.Modelo</h1>
+            <p class="descripcion">
+                @infoCoche.Descripcion fabricado en 
+                <span class="text-success">@infoCoche.AnioFabricacion</span> teniendo en cuenta que es 
+                @infoCoche.Combustible consiguiendo una velodicad maxima de: 
+                <span class="text-danger">@infoCoche.VelocidadMaxima</span>
+            </p>
+        </div>
+
+            <div class="contenedor_imagenes row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 g-3">
+                @foreach (string rutaImg in infoCoche.ListadoPathDeImagenes)
+                {
+                    <div class="col">
+                        <img src="@rutaImg" alt="" class="img-thumbnail slide-in" style="animation-delay: @($"{numeroDeImagenes * 0.5}s");">
+                    </div>
+                    numeroDeImagenes++;
+                }
+            </div>
+        </div>
+    </section>
+        <c_.Users.blanc.Downloads.Concesionario_app.Concesionario.Components.PiePagina/>
+    }
+    else
+    {
+        <p>No se encontró el vehículo.</p>
+    }
+
+    @code {
+        private Coche? infoCoche;
+
+        [Parameter]
+        public string? Titulo { get; set; }
+
+        private int numeroDeImagenes = 1;
+
+
+        protected override void OnParametersSet()
+        {
+            if (!string.IsNullOrEmpty(Titulo))
+            {
+                infoCoche = c.ListadoCoches.FirstOrDefault(v => $"{v.Marca} {v.Modelo}".Contains(Titulo, StringComparison.OrdinalIgnoreCase));
+            }
+        }
+    }

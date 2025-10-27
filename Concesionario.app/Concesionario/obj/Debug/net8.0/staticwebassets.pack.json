@@ -1,0 +1,869 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Concesionario.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Concesionario.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\ImagenPredefinida.png",
+      "PackagePath": "staticwebassets\\ImagenPredefinida.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Poetsen_\\OFL.txt",
+      "PackagePath": "staticwebassets\\data\\fonts\\Poetsen_\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Poetsen_\\PoetsenOne-Regular.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Poetsen_\\PoetsenOne-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\OFL.txt",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-Black.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-Bold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-Italic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-Light.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-Medium.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-Regular.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-Thin.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\Prompt\\Prompt-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\Prompt\\Prompt-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather-Italic-VariableFont_opsz,wdth,wght.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather-Italic-VariableFont_opsz,wdth,wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather-VariableFont_opsz,wdth,wght.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather-VariableFont_opsz,wdth,wght.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt-Black.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt-Bold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt-Italic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt-Light.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt-Medium.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt-Regular.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-Black.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-Bold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-Italic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-Light.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-Medium.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-Regular.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_120pt_SemiCondensed-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt-Black.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt-Bold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt-Italic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt-Light.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt-Medium.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt-Regular.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-Black.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-Bold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-Italic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-Light.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-Medium.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-Regular.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_24pt_SemiCondensed-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt-Black.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt-Bold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt-Italic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt-Light.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt-Medium.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt-Regular.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-Black.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-Bold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-Italic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-Light.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-Medium.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-Regular.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_36pt_SemiCondensed-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt-Black.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt-Bold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt-Italic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt-Light.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt-Medium.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt-Regular.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-Black.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-Bold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-Italic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-Light.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-Medium.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-Regular.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_48pt_SemiCondensed-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt-Black.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt-Bold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt-Italic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt-Light.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt-Medium.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt-Regular.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-Black.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-Bold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-Italic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-Light.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-Medium.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-Regular.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\Merriweather_96pt_SemiCondensed-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\OFL.txt",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\fonts\\static\\README.txt",
+      "PackagePath": "staticwebassets\\data\\fonts\\static\\README.txt"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Audi_A4\\Audi_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Audi_A4\\Audi_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Audi_A4\\Captura de pantalla 2025-03-31 135018.png",
+      "PackagePath": "staticwebassets\\data\\img\\Audi_A4\\Captura de pantalla 2025-03-31 135018.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Audi_A4\\Captura de pantalla 2025-03-31 135715.png",
+      "PackagePath": "staticwebassets\\data\\img\\Audi_A4\\Captura de pantalla 2025-03-31 135715.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Audi_A4\\Captura de pantalla 2025-03-31 135750.png",
+      "PackagePath": "staticwebassets\\data\\img\\Audi_A4\\Captura de pantalla 2025-03-31 135750.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Audi_A4\\Ruta python.png",
+      "PackagePath": "staticwebassets\\data\\img\\Audi_A4\\Ruta python.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\BMW_M3\\BMW_Front.png",
+      "PackagePath": "staticwebassets\\data\\img\\BMW_M3\\BMW_Front.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\BMW_M3\\Captura de pantalla 2025-03-31 131411.png",
+      "PackagePath": "staticwebassets\\data\\img\\BMW_M3\\Captura de pantalla 2025-03-31 131411.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\BMW_M3\\Captura de pantalla 2025-03-31 135018.png",
+      "PackagePath": "staticwebassets\\data\\img\\BMW_M3\\Captura de pantalla 2025-03-31 135018.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\BMW_M3\\Captura de pantalla 2025-03-31 135715.png",
+      "PackagePath": "staticwebassets\\data\\img\\BMW_M3\\Captura de pantalla 2025-03-31 135715.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\BMW_M3\\Captura de pantalla 2025-03-31 135750.png",
+      "PackagePath": "staticwebassets\\data\\img\\BMW_M3\\Captura de pantalla 2025-03-31 135750.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\BMW_M3\\Captura de pantalla 2025-03-31 142342.png",
+      "PackagePath": "staticwebassets\\data\\img\\BMW_M3\\Captura de pantalla 2025-03-31 142342.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\BMW_M3\\Ruta python.png",
+      "PackagePath": "staticwebassets\\data\\img\\BMW_M3\\Ruta python.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\BMW_M3\\Trabajador2-removebg-preview.png",
+      "PackagePath": "staticwebassets\\data\\img\\BMW_M3\\Trabajador2-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\BMW_M3\\bmw_m3_1.png",
+      "PackagePath": "staticwebassets\\data\\img\\BMW_M3\\bmw_m3_1.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\BMW_M3\\images-removebg-preview (1).png",
+      "PackagePath": "staticwebassets\\data\\img\\BMW_M3\\images-removebg-preview (1).png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\BMW_M3\\images-removebg-preview (2).png",
+      "PackagePath": "staticwebassets\\data\\img\\BMW_M3\\images-removebg-preview (2).png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\BMW_X5\\BMWX5_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\BMW_X5\\BMWX5_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\BMW_X5\\Ruta python.png",
+      "PackagePath": "staticwebassets\\data\\img\\BMW_X5\\Ruta python.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Chevrolet_Camaro\\chevrolet_camaro_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Chevrolet_Camaro\\chevrolet_camaro_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Chevrolet_Silverado\\chevrolet_silverado_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Chevrolet_Silverado\\chevrolet_silverado_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Ford_F-150\\ford_f-150_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Ford_F-150\\ford_f-150_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Ford_Mustang\\ford_mustang_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Ford_Mustang\\ford_mustang_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Honda_Civic\\honda_civic_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Honda_Civic\\honda_civic_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Hyundai_Kona\\hyundai_kona_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Hyundai_Kona\\hyundai_kona_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Jeep_Wrangler\\jeep_wrangler_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Jeep_Wrangler\\jeep_wrangler_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Kia_Sportage\\kia_sportage_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Kia_Sportage\\kia_sportage_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Mazda_MX-5\\mazda_mx_5_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Mazda_MX-5\\mazda_mx_5_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Mercedes-Benz_C-Class\\mercedez_benz_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Mercedes-Benz_C-Class\\mercedez_benz_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Porsche_911\\porche_911_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Porsche_911\\porche_911_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Subaru_Outback\\subaro_outback_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Subaru_Outback\\subaro_outback_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Tesla_Model S\\tesla_model_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Tesla_Model S\\tesla_model_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Toyota_Corolla\\toyota_corolla_1.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\Toyota_Corolla\\toyota_corolla_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Trabajadores\\Trabajador1.png",
+      "PackagePath": "staticwebassets\\data\\img\\Trabajadores\\Trabajador1.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Trabajadores\\Trabajador2.png",
+      "PackagePath": "staticwebassets\\data\\img\\Trabajadores\\Trabajador2.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\Trabajadores\\Trabajador3.png",
+      "PackagePath": "staticwebassets\\data\\img\\Trabajadores\\Trabajador3.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\empresa.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\empresa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\ferrari_inicio.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\ferrari_inicio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\foto_porsche_inicio.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\foto_porsche_inicio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\data\\img\\mg_inicio.jpg",
+      "PackagePath": "staticwebassets\\data\\img\\mg_inicio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\icon-car.png",
+      "PackagePath": "staticwebassets\\icon-car.png"
+    },
+    {
+      "Id": "C:\\Users\\blanc\\Downloads\\Concesionario.app\\Concesionario.app\\Concesionario\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Concesionario.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Concesionario.props",
+      "PackagePath": "build\\Concesionario.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Concesionario.props",
+      "PackagePath": "buildMultiTargeting\\Concesionario.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Concesionario.props",
+      "PackagePath": "buildTransitive\\Concesionario.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

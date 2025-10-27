@@ -1,0 +1,109 @@
+@page "/editarcoche/{MarcaModelo}"
+@inject NavigationManager NavigationManager
+@using LibsClass
+@inject Catalogo catalogo
+@rendermode InteractiveServer
+
+
+@if (coche == null)
+{
+    <p>Cargando datos del coche...</p>
+}
+else
+{
+    <div class="contenedor_formulario ">
+        <div class="contenedor @(activado ? "activado" : "") ms-2 p-3">
+            <EditForm Model="@coche" FormName="editarCocheForm" OnValidSubmit="GuardarCambios">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <label class="form-label">Marca</label>
+                        <InputText class="form-control" @bind-Value="coche.Marca" />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Modelo</label>
+                        <InputText class="form-control" @bind-Value="coche.Modelo" />
+                    </div>
+
+                    <div class="col-md-6">
+                        <label class="form-label">Descripción</label>
+                        <InputTextArea style="resize: none;" class="form-control" @bind-Value="coche.Descripcion" />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">Año de fabricante</label>
+                        <InputNumber class="form-control" @bind-Value="coche.AnioFabricacion" />
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label">velocidad Maxima </label>
+                        <InputNumber class="form-control" @bind-Value="coche.VelocidadMaxima" />
+                    </div>
+
+                    <div class="col-12">
+                        <label>Combustible:</label>
+                        <InputSelect @bind-Value="coche.Combustible">
+                            @foreach (var tipo in Enum.GetValues<TiposCombustibles>())
+                            {
+                                <option value="@tipo">@tipo</option>
+                            }
+                        </InputSelect>
+                    </div>
+                    <div class="col-12 text-end mt-4 mb-3">
+                        <button class="btn btn-primary" type="submit" @onmouseover="() => activado = true">Guardar</button>
+                        <button class="btn btn-secondary ms-2">Cancelar</button>
+                        <button class="btn bg-danger ms-2 me-3 " @onclick="() => catalogo.EliminarCoche(coche)">Eliminar
+                            vehiculo</button>
+                    </div>
+                </div>
+            </EditForm>
+        </div>
+
+        <div class="agregarImagen @(activado ? "activado" : "") me-2 p-3">
+            <label class="pb-5">Listado de imagenes asociadas:</label>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-4 g-3">
+                @foreach (string rutaImg in coche.ListadoPathDeImagenes)
+                {
+                    <div class="col ">
+                        <img src="@rutaImg" alt="" class="img-thumbnail">
+                    </div>
+                }   
+            </div>
+            <label class="pt-5">Agregar Imagen:</label>
+
+            <InputFile OnChange="VerImagen" />
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter] public string MarcaModelo { get; set; }
+    private Coche? coche = null;
+
+
+    
+bool activado = false;
+
+    protected override void OnInitialized()
+    {
+        coche = catalogo.ListadoCoches.Where(c => $"{c.Marca}{c.Modelo}".Contains(MarcaModelo)).FirstOrDefault();
+    }
+    private void GuardarCambios(EditContext args)
+    {
+        Console.WriteLine($"Los cambios se han guardado: {coche}");
+        NavigationManager.NavigateTo("/vehiculosdisponibles/false");
+    }
+
+    private async Task VerImagen(InputFileChangeEventArgs e)
+    {
+        var archivo = e.File;
+        string nombreArchivo = Path.GetFileName(archivo.Name); 
+        coche.AsociarImagenes(nombreArchivo);
+
+        // Ruta donde se guardará la imagen (en wwwroot/images)
+        var rutaDestino = Path.Combine("wwwroot", "data", "img",$"{coche.Marca}_{coche.Modelo}", nombreArchivo);
+
+        // Creamos el stream y guardamos
+        using var streamDestino = File.Create(rutaDestino);
+        await archivo.OpenReadStream().CopyToAsync(streamDestino);
+    }
+
+}

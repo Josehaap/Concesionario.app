@@ -1,0 +1,57 @@
+﻿@page "/"
+@using LibsClass;
+@inject Catalogo c
+@rendermode InteractiveServer
+
+<PageTitle>Inicio</PageTitle>
+
+<section class="contenedorInfo">
+    <article class="  text-center py-5">
+        <div class="container">
+            <h1 class="display-4 Merriweather">Bienvenido a BootCars</h1>
+            <p class="lead Merriweather">Los mejores vehículos <span class="enfasis">nuevos </span> al mejor precio</p>
+            <div class="btn btn-light btn-lg mt-3">
+                <NavLink class="nav-link text-black text-muted " href="vehiculosdisponibles/false">Explorar Vehículos
+                </NavLink>
+            </div>
+        </div>
+    </article>
+    <article class="py-5 articuloVehiculosDestacados">
+        <div class="container">
+            <h2 class="text-center mb-4">Vehículos Destacados</h2>
+            <div class="row g-4">
+
+                @foreach (string nombre in nombre_vehiculos_destacados)
+                {
+
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <div class="card-header bg-none position-absolute">
+                                <NavLink class="btn btn-primary w-100" href=@($"/informacionvehiculo/{nombre}")>Info
+                                </NavLink>
+                            </div>
+                            <div class="capaGris">
+                                <img src="@c.ListadoCoches.Where(v => $"{v.Marca} {v.Modelo}".Contains(nombre, StringComparison.OrdinalIgnoreCase)).Select(v => v.ListadoPathDeImagenes[0]).FirstOrDefault()"
+                                    class="card-img-top" alt="Auto 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">@nombre</h5>
+                                    <p class="card-text">@c.ListadoCoches.Where(v=> $"{v.Marca} {v.Modelo}".Contains(nombre,
+                                                                            StringComparison.OrdinalIgnoreCase)).Select(v => v.Descripcion).FirstOrDefault()</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+
+            </div>
+        </div>
+    </article>
+</section>
+
+
+
+@code {
+    string[] nombre_vehiculos_destacados = ["Toyota corolla", "BMW M3", "Audi A4"];
+
+}

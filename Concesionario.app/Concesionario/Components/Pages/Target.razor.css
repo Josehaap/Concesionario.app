@@ -1,0 +1,20 @@
+div{
+    margin-left: 40px;
+}
+div.card img{
+    height: 300px;
+    object-fit: cover;
+    object-position: top;  
+}
+
+div.card {
+    transition: transform 0.3s ease ;
+    transform: translateY(0);
+    position: relative; 
+}
+
+div.card:hover {
+    transform:  translateY(-20px);
+}
+
+

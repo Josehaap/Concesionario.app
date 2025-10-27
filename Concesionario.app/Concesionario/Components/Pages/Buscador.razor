@@ -1,0 +1,9 @@
+@rendermode InteractiveServer
+@inject NavigationManager Navigator
+
+<input type="text" @oninput="ActualizarTerminoBusqueda">
+
+@code {
+    private void ActualizarTerminoBusqueda(ChangeEventArgs args) => Navigator.NavigateTo($"/vehiculosdisponibles/true/{ args.Value?.ToString() ?? ""}");
+}
+

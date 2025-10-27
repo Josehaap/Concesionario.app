@@ -1,0 +1,30 @@
+.Merriweather{
+    font-family: 'Merriweather_120pt-SemiBoldItalic';
+}
+
+
+.enfasis{   
+    font-style: italic;
+    font-size: 30px;
+    font-family: inherit;
+}
+
+.articuloVehiculosDestacados{
+    margin-top: 170px;
+}
+h2{
+    font-family: 'PoetsenOne';
+    font-size: 80px;
+    padding-bottom: 40px;
+}
+div.card{
+    border: 0;
+}
+.card-header {
+    z-index: 2; 
+    border: none;/* Asegura que el botón esté encima de la capa gris */
+    background: none;
+}
+article > div.container{
+    animation: unlock_opacity 4s ease forwards;
+}

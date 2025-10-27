@@ -1,0 +1,45 @@
+@inject NavigationManager Navigator
+@rendermode InteractiveServer
+
+<div class="card border-0 shadow-lg" style="width: 18rem;" >
+    <img src="@(ListadoDeImagenes is null? ImagenPredefinida : ListadoDeImagenes )" class="card-img-top" alt="..." @onclick="NavegarAPaginaInfo">
+    <div class="card-body ">
+        <h5 class="card-title">@Titulo - @velocidadMaxima KM</h5>
+        <p class="card-text">@Descripción</p>
+        <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary" @onclick="EditarElemento"
+                disabled="@(UrlParaEditar == null)">Edit</button>
+
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string Titulo { get; set; } = "Mantenimiento";
+
+    [Parameter]
+    public string? ListadoDeImagenes { get; set; } = null; 
+    
+    private string ImagenPredefinida = Path.Combine(Directory.GetCurrentDirectory(), "/ImagenPredefinida.png");
+
+    [Parameter]
+    public string Descripción { get; set; } = "Tarjeta en mantenimiento";
+    [Parameter]
+
+    public double? velocidadMaxima{get;set;}
+
+
+    [Parameter]
+    public string? UrlParaEditar { get; set; } = null;
+
+   
+
+    private void EditarElemento(MouseEventArgs args)
+    {
+        if (UrlParaEditar != null) Navigator.NavigateTo(UrlParaEditar);
+    }
+    private void NavegarAPaginaInfo(MouseEventArgs args)=> Navigator.NavigateTo($"/informacionvehiculo/{Titulo}");
+    
+   
+}

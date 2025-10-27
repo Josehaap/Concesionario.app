@@ -1,0 +1,182 @@
+[
+  {
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "descripcion": "Sedán compacto de bajo consumo",
+    "anioFabricacion": 2020,
+    "combustible": "Electrico",
+    "velocidadMaxima": 210,
+    "nombre_img": "toyota_corolla_1.jpg"
+  },
+  {
+    "marca": "Ford",
+    "modelo": "Mustang",
+    "descripcion": "Deportivo clásico con un diseño agresivo",
+    "anioFabricacion": 2021,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 250,
+    "nombre_img": "ford_mustang_1.jpg"
+  },
+  {
+    "marca": "Tesla",
+    "modelo": "Model 3",
+    "descripcion": "Eléctrico de gama media, ideal para el día a día",
+    "anioFabricacion": 2022,
+    "combustible": "Electrico",
+    "velocidadMaxima": 225,
+    "nombre_img": "tesla_model_3_1.jpg"
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "Camaro",
+    "descripcion": "Coupé deportivo con un motor potente",
+    "anioFabricacion": 2019,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 300,
+    "nombre_img": "chevrolet_camaro_1.jpg"
+  },
+  {
+    "marca": "Honda",
+    "modelo": "Civic",
+    "descripcion": "Compacto económico con buen rendimiento de combustible",
+    "anioFabricacion": 2021,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 220,
+    "nombre_img": "honda_civic_1.jpg"
+  },
+  {
+    "marca": "BMW",
+    "modelo": "M3",
+    "descripcion": "Deportivo de alto rendimiento con tecnología avanzada",
+    "anioFabricacion": 2020,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 280,
+    "nombre_img": "bmw_m3_1.png"
+  },
+  {
+    "marca": "Audi",
+    "modelo": "A4",
+    "descripcion": "Sedán de lujo con una excelente dinámica de conducción",
+    "anioFabricacion": 2022,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 240,
+    "nombre_img": "audi_a4_1.jpg"
+  },
+  {
+    "marca": "Mercedes-Benz",
+    "modelo": "C-Class",
+    "descripcion": "Elegante sedán de lujo con tecnología avanzada",
+    "anioFabricacion": 2021,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 250,
+    "nombre_img": "mercedes_benz_c_class_1.jpg"
+  },
+  {
+    "marca": "Porsche",
+    "modelo": "911",
+    "descripcion": "Deportivo icónico con un motor de altas prestaciones",
+    "anioFabricacion": 2020,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 320,
+    "nombre_img": "porche_911_1.jpg"
+  },
+  {
+    "marca": "Nissan",
+    "modelo": "Leaf",
+    "descripcion": "Coche eléctrico asequible y ecológico",
+    "anioFabricacion": 2021,
+    "combustible": "Electrico",
+    "velocidadMaxima": 180,
+    "nombre_img": "nissan_leaf_1.jpg"
+  },
+  {
+    "marca": "Mazda",
+    "modelo": "MX-5",
+    "descripcion": "Coupé pequeño y ligero con excelente manejo",
+    "anioFabricacion": 2019,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 240,
+    "nombre_img": "mazda_mx_5_1.jpg"
+  },
+  {
+    "marca": "Ford",
+    "modelo": "F-150",
+    "descripcion": "Camioneta robusta, ideal para trabajo pesado",
+    "anioFabricacion": 2021,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 200,
+    "nombre_img": "ford_f150_1.jpg"
+  },
+  {
+    "marca": "Jeep",
+    "modelo": "Wrangler",
+    "descripcion": "SUV todoterreno con gran capacidad de aventura",
+    "anioFabricacion": 2022,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 210,
+    "nombre_img": "jeep_wrangler_1.jpg"
+  },
+  {
+    "marca": "Toyota",
+    "modelo": "Prius",
+    "descripcion": "Híbrido compacto, ideal para ahorro de combustible",
+    "anioFabricacion": 2020,
+    "combustible": "Hibrido",
+    "velocidadMaxima": 180,
+    "nombre_img": "toyota_prius_1.jpg"
+  },
+  {
+    "marca": "Hyundai",
+    "modelo": "Kona",
+    "descripcion": "SUV pequeño, perfecto para la ciudad",
+    "anioFabricacion": 2021,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 200,
+    "nombre_img": "hyundai_kona_1.jpg"
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "Silverado",
+    "descripcion": "Camioneta de gran tamaño, ideal para remolcar",
+    "anioFabricacion": 2021,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 230,
+    "nombre_img": "chevrolet_silverado_1.jpg"
+  },
+  {
+    "marca": "Subaru",
+    "modelo": "Outback",
+    "descripcion": "SUV con capacidad para todo tipo de terrenos",
+    "anioFabricacion": 2020,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 210,
+    "nombre_img": "subaru_outback_1.jpg"
+  },
+  {
+    "marca": "Kia",
+    "modelo": "Sportage",
+    "descripcion": "SUV con un buen balance entre precio y calidad",
+    "anioFabricacion": 2021,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 220,
+    "nombre_img": "kia_sportage_1.jpg"
+  },
+  {
+    "marca": "Tesla",
+    "modelo": "Model S",
+    "descripcion": "Eléctrico de lujo con tecnología avanzada y gran autonomía",
+    "anioFabricacion": 2022,
+    "combustible": "Electrico",
+    "velocidadMaxima": 250,
+    "nombre_img": "tesla_model_s_1.jpg"
+  },
+  {
+    "marca": "BMW",
+    "modelo": "X5",
+    "descripcion": "SUV de lujo con grandes capacidades de manejo y confort",
+    "anioFabricacion": 2021,
+    "combustible": "Gasolina",
+    "velocidadMaxima": 240,
+    "nombre_img": "bmw_x5_1.jpg"
+  }
+]
