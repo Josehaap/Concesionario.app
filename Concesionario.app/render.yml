@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: mi-blazor-app
-    env: dotnet
-    plan: starter
-    repo: https://github.com/usuario/mi-blazor-app
-    branch: main
-    buildCommand: dotnet publish -c Release -o ./publish
-    startCommand: dotnet ./publish/MiBlazorApp.dll
