@@ -2,13 +2,13 @@
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /app
 
-# Copiar csproj y restaurar dependencias
-COPY *.csproj ./  
-RUN dotnet restore
+# Copiar el proyecto csproj y restaurar dependencias
+COPY Concesionario/Concesionario.csproj ./Concesionario.csproj
+RUN dotnet restore ./Concesionario.csproj
 
 # Copiar todo el código
-COPY . ./
-RUN dotnet publish -c Release -o /app/publish
+COPY Concesionario/. ./Concesionario/
+RUN dotnet publish ./Concesionario/Concesionario.csproj -c Release -o /app/publish
 
 # Etapa 2: Runtime
 FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS runtime
@@ -19,4 +19,6 @@ COPY --from=build /app/publish .
 ENV DOTNET_URLS=http://*:${PORT}
 EXPOSE 5000
 
-ENTRYPOINT ["dotnet", "Concesionario.app.dll"]  # Cambia al nombre real de tu dll
+# Cambiar al nombre real de tu DLL
+ENTRYPOINT ["dotnet", "Concesionario.dll"]
+
