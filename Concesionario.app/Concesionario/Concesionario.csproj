@@ -7,7 +7,11 @@
   <ItemGroup>
     <Folder Include="wwwroot\data\" />
     <Folder Include="wwwroot\src\" />
-    
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Asegura que todos los archivos de wwwroot se publiquen -->
+    <Content Include="wwwroot\**\*" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
   <PropertyGroup>
