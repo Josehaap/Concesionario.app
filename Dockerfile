@@ -1,20 +1,29 @@
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+# Etapa 1: Build
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
 
-# Copiar proyectos
-COPY ["LibsClass/LibsClass.csproj", "LibsClass/"]
-COPY ["Concesionario/Concesionario.csproj", "Concesionario/"]
+# Copiar solución y proyectos (ajustado a tu estructura)
+COPY Concesionario.app/Concesionario.app.sln ./
+COPY Concesionario.app/Concesionario/Concesionario.csproj Concesionario/
+COPY Concesionario.app/LibsClass/LibsClass.csproj LibsClass/
 
-RUN dotnet restore "Concesionario/Concesionario.csproj"
+# Restaurar dependencias
+RUN dotnet restore Concesionario.app.sln
 
-# Copiar todo el resto del proyecto
-COPY . .
+# Copiar todo el código
+COPY Concesionario.app/ .
 
-# Publicar
-RUN dotnet publish "Concesionario/Concesionario.csproj" -c Release -o /app/publish
+# Publicar proyecto
+RUN dotnet publish Concesionario/Concesionario.csproj -c Release -o /app/publish
 
-# Runtime
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+# Etapa 2: Runtime
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS final
 WORKDIR /app
 COPY --from=build /app/publish .
+
+# Render usa el puerto dinámico 10000 (o PORT si lo define)
+EXPOSE 10000
+ENV ASPNETCORE_URLS=http://+:10000
+
 ENTRYPOINT ["dotnet", "Concesionario.dll"]
+
