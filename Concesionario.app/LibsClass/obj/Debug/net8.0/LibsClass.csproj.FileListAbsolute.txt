@@ -22,3 +22,4 @@ C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\obj\Debug
 C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\obj\Debug\net8.0\refint\LibsClass.dll
 C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\obj\Debug\net8.0\LibsClass.pdb
 C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\obj\Debug\net8.0\ref\LibsClass.dll
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\LibsClass\obj\Debug\net8.0\LibsClass.sourcelink.json

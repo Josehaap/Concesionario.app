@@ -78,3 +78,4 @@ C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\obj\D
 C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\obj\Debug\net8.0\Concesionario.pdb
 C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\obj\Debug\net8.0\Concesionario.genruntimeconfig.cache
 C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\obj\Debug\net8.0\ref\Concesionario.dll
+C:\Users\blanc\Downloads\Concesionario.app\Concesionario.app\Concesionario\obj\Debug\net8.0\Concesionario.sourcelink.json
